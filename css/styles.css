@@ -1,0 +1,86 @@
+/* цвет основного текста  #212121 */
+/* вторичный цвет  #757575 */
+/* белый #ffffff */
+/* акцент #2196F3 */
+/* верх лого  #000000;*/
+/* почта, тел в футтер rgba(255, 255, 255, 0.6); */
+/* вторичный цвет фона  #F5F4FA  */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+
+.hero-section,
+.footer {
+  background-color: #2f303a;
+}
+.benefits-title,
+.work-title,
+.team-title {
+  color: var(--title-text-color);
+}
+/* Header */
+.header-logo {
+  color: var(--accent-color);
+}
+.header-logo-desc {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.info-link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.info-link:hover,
+.info-link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--white-color);
+}
+/* Преимущества */
+.benefits-caption {
+  color: var(--title-text-color);
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда  */
+.team-caption {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer-logo {
+  color: var(--accent-color);
+}
+.footer-logo-dsc {
+  color: var(--white-color);
+}
+.footer-address-link {
+  color: var(--white-color);
+}
+.address-info-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-info-link:hover,
+.address-info-link:focus {
+  color: var(--accent-color);
+}
