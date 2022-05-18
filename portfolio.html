@@ -18,31 +18,37 @@
     <!-- Шапка сайта -->
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html"
-          >Web <span class="header-logo-desc">Studio</span></a
+        <a class="link header-logo" href="./index.html"
+          >Web<span class="header-logo-desc">Studio</span></a
         >
         <ul class="site-nav">
-          <li class="list header-item"><a href="./index.html">Студия</a></li>
-          <li class="list header-item"><a href="./portfolio.html">Портфолио</a></li>
-          <li class="list header-item"><a href="">Контакты</a></li>
+          <li class="list header-item">
+            <a class="link header-link" href="./index.html">Студия</a>
+          </li>
+          <li class="list header-item">
+            <a class="link header-link current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="list header-item">
+            <a class="link header-link" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
       <ul class="list header-info">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="link info-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link info-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <!--Список портфолио  -->
     <main class="main">
-      <h2 class="main-title">Наши роботы</h2>
+      <h2 class="visually-hidden">Наши роботы</h2>
       <section class="main-section">
         <ul class="list main-list">
-          <li class="main-btn"><button type="button">Все</button></li>
-          <li class="main-btn"><button type="button">Веб-сайты</button></li>
-          <li class="main-btn"><button type="button">Приложения</button></li>
-          <li class="main-btn"><button type="button">Дизайн</button></li>
-          <li class="main-btn"><button type="button">Маркетинг</button></li>
+          <li><button class="main-btn" type="button">Все</button></li>
+          <li><button class="main-btn" type="button">Веб-сайты</button></li>
+          <li><button class="main-btn" type="button">Приложения</button></li>
+          <li><button class="main-btn" type="button">Дизайн</button></li>
+          <li><button class="main-btn" type="button">Маркетинг</button></li>
         </ul>
       </section>
       <section class="main-content">
@@ -100,12 +106,14 @@
 
     <!-- Підвал сайта -->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html">Web <span class="footer-logo-dsc">Studio</span></a>
+      <a class="link footer-logo" href="./index.html"
+        >Web<span class="footer-logo-dsc">Studio</span></a
+      >
       <address class="footer-address">
         <ul class="list footer-address-list">
           <li class="list footer-address-item">
             <a
-              class="footer-address-link"
+              class="link footer-address-link"
               href="https://goo.gl/maps/ybXtjSqPj97G9J9u8"
               target="_blank"
               rel="noopener noreferrer"
@@ -114,10 +122,10 @@
             </a>
           </li>
           <li class="list address-info-list">
-            <a class="address-info-link" href="mailto:info@example.com">info@example.com</a>
+            <a class="link footer-info-link" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li class="list address-info-list">
-            <a class="address-info-link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="link footer-info-link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
