@@ -10,7 +10,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --white-color: #ffffff;
+  --second-title-color: #ffffff;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
   color: var(--title-text-color);
 }
 /* Header */
-.header-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -93,7 +93,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--second-title-color);
 }
 .hero-btn {
   font-family: 'Roboto', sans-serif;
@@ -105,9 +105,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--white-color);
+  color: var(--second-title-color);
   background-color: var(--accent-color);
   cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 /* Преимущества */
 .benefits-caption {
@@ -159,17 +163,8 @@ body {
 }
 
 /* Footer */
-.footer-logo {
-  font-family: 'Raleway', sans-serif
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19x;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
 .footer-logo-dsc {
-  color: var(--white-color);
+  color: var(--second-title-color);
 }
 .footer-address-link {
   font-style: normal;
@@ -177,7 +172,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--second-title-color);
 }
 .footer-info-link {
   font-style: normal;
@@ -202,15 +197,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  background-color: #f5f4fa ;
+  background-color: #f5f4fa;
   cursor: pointer;
-  
 }
 .main-btn:hover,
-.main-btn:focus {
-color: var(--white-color);
-background-color: var(--accent-color);
-
+.main-btn:focus,
+.main-btn.current {
+  color: var(--second-title-color);
+  background-color: var(--accent-color);
 }
 .main-content-title {
   font-size: 18px;
